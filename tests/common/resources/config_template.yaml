@@ -1,0 +1,21 @@
+drs:
+  project:  vf-dev-ca-lab
+
+gcs:
+  report_bucket:  vf-dev-ca-lab-drs
+  report_location:  reports
+
+big_query:
+  report_dataset:  drs_pt_uk
+  report_table:  drs_report
+  status_table:  drs_status
+
+pubsub:
+  report_topic: drs_report
+
+datastore:
+  namespace:  drs_namespace
+  kind:  drs_kind
+
+slack_credentials:
+  path: gs://vf-dev-ca-lab-drs/secure/slack.json

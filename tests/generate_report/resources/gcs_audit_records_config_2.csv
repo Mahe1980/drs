@@ -1,0 +1,6 @@
+config_id,project_id,days_to_retain,partition_date,partition_path,total_partition_files_size,total_partition_files,anomaly_detected_gcs,previous_partition_date_gcs,total_previous_partition_files_size,variation_with_previous_partition_files_size
+22222222-4c5e-422a-9d94-9af524545fe7,vf-dev-ca-lab,10,2019-05-30,gs://vf-dev-ca-lab-drs/vf_uk/coverage/mvp_portugal_2/parquet/year=2019/month=5/day=30/,0.0,1,,,,
+22222222-4c5e-422a-9d94-9af524545fe7,vf-dev-ca-lab,10,2020-05-30,gs://vf-dev-ca-lab-drs/vf_uk/coverage/mvp_portugal_2/parquet/year=2020/month=5/day=30/,0.0,1,,,,
+22222222-4c5e-422a-9d94-9af524545fe7,vf-dev-ca-lab,10,2020-06-28,gs://vf-dev-ca-lab-drs/vf_uk/coverage/mvp_portugal_2/parquet/year=2020/month=6/day=28/,0.0,9,,,,
+22222222-4c5e-422a-9d94-9af524545fe7,vf-dev-ca-lab,10,2020-06-29,gs://vf-dev-ca-lab-drs/vf_uk/coverage/mvp_portugal_2/parquet/year=2020/month=6/day=29/,0.0,6,,,,
+22222222-4c5e-422a-9d94-9af524545fe7,vf-dev-ca-lab,10,2020-06-30,gs://vf-dev-ca-lab-drs/vf_uk/coverage/mvp_portugal_2/parquet/year=2020/month=6/day=30/,0.0,1,,,,

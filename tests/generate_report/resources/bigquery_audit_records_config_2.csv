@@ -1,0 +1,2 @@
+config_id,project_id,days_to_retain,partition_date,dataset,table_name,partition_column,partition_row_count,anomaly_detected_bq,previous_partition_date_bq,previous_partition_row_count,variation_with_previous_partition_row_count
+22222222-4c5e-422a-9d94-9af524545fe7,vf-dev-ca-lab,10,2019-05-30,raw_pt_uk,mvp_portugal_2_mahe,partition_year_month_day,20,,,,

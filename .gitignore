@@ -1,0 +1,22 @@
+# JetBrains
+.idea
+
+# Mac
+.DS_Store
+
+# venv
+.venv
+venv
+
+# Pytest Cache
+*.pyc
+.cache
+.pytest_cache/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# coverage
+.coverage
+.flattened-pom.xml
+target/

@@ -1,0 +1,51 @@
+<assembly xmlns="http://maven.apache.org/ASSEMBLY/2.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/ASSEMBLY/2.0.0 http://maven.apache.org/xsd/assembly-2.0.0.xsd">
+    <id>trash-package</id>
+    <formats>
+        <format>zip</format>
+    </formats>
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <fileSets>
+        <fileSet>
+            <directory>${parent.basedir}</directory>
+            <outputDirectory>/</outputDirectory>
+            <includes>
+                <include>requirements.txt</include>
+            </includes>
+            <directoryMode>0755</directoryMode>
+            <fileMode>0755</fileMode>
+        </fileSet>
+
+        <fileSet>
+            <directory>${parent.basedir}/common</directory>
+            <outputDirectory>common</outputDirectory>
+            <includes>
+                <include>**/*.py</include>
+            </includes>
+            <directoryMode>0755</directoryMode>
+            <fileMode>0755</fileMode>
+        </fileSet>
+
+        <fileSet>
+            <directory>${basedir}</directory>
+            <outputDirectory>/</outputDirectory>
+            <includes>
+                <include>main.py</include>
+            </includes>
+            <directoryMode>0755</directoryMode>
+            <fileMode>0755</fileMode>
+        </fileSet>
+        <fileSet>
+            <directory>${basedir}</directory>
+            <outputDirectory>trash</outputDirectory>
+            <includes>
+                <include>trash_data.py</include>
+                <include>__init__.py</include>
+            </includes>
+            <directoryMode>0755</directoryMode>
+            <fileMode>0755</fileMode>
+        </fileSet>
+    </fileSets>
+
+</assembly>

@@ -1,0 +1,6 @@
+config_id,project_id,days_to_retain,partition_date,dataset,table_name,partition_column,partition_row_count,anomaly_detected_bq,previous_partition_date_bq,previous_partition_row_count,variation_with_previous_partition_row_count
+11111111-4c5e-422a-9d94-9af524545fe7,vf-dev-ca-lab,10,2018-02-03,raw_pt_uk,mvp_portugal_1_mahe,partition_year_month_day,3,,,,
+11111111-4c5e-422a-9d94-9af524545fe7,vf-dev-ca-lab,10,2019-01-03,raw_pt_uk,mvp_portugal_1_mahe,partition_year_month_day,3,,,,
+11111111-4c5e-422a-9d94-9af524545fe7,vf-dev-ca-lab,10,2019-01-31,raw_pt_uk,mvp_portugal_1_mahe,partition_year_month_day,3,,,,
+11111111-4c5e-422a-9d94-9af524545fe7,vf-dev-ca-lab,10,2019-02-23,raw_pt_uk,mvp_portugal_1_mahe,partition_year_month_day,1,,,,
+11111111-4c5e-422a-9d94-9af524545fe7,vf-dev-ca-lab,10,2019-04-23,raw_pt_uk,mvp_portugal_1_mahe,partition_year_month_day,1,,,,
